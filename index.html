@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/Logo_img.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>HUY TB</title>
+</head>
+<body>
+    <!-- header start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="navbar__img">
+            <img class="nav-img" src="./assets/img/logo_img.png" alt="logo">
+                  HUY TB
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span><i class="fa-solid fa-bars icon_bar"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown mobile__nav" style="cursor: pointer;">
+                        <a href="#about" class="nav-link">
+                        ABOUT ME
+                          <i class="fa-solid fa-caret-down icon__down"></i>
+                        </a>
+                        <ul class="dropdown-menu subnav nav__list" id="subnav "> 
+                            <li><a class="dropdown-item" href="#about">INTRODUCTION</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#qualification">QUALIFICATION</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#project">PROJECT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#contact">CONTACT ME</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- header end -->
+
+    <!-- container start -->
+        <!-- slide start -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+          
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner slider">
+              <div class="carousel-item active ">
+                <img src="./assets/img/backgr.png" alt="" class="d-block w-100 bgr__img">
+                <img src="./assets/img/huy.png" alt="" class="img__people">
+                <img src="./assets/img/logo.png" alt="" class="img__logo">
+                <h3 class="slider__welcome">WELCOME TO</h3>
+                <h1 class="slider__brand">HUY TB</h1>
+                <div class="slider__visit">
+                  <h4 class="visit__heade">VISIT US</h4>
+                  <ul>
+                    <li class="list__infor">
+                      <i class="fa-solid fa-location-dot"></i>
+                      District 9, HCM city
+                    </li>
+                    <li class="list__infor">
+                      <i class="fa-solid fa-phone"></i>
+                      037 3117 364
+                    </li>
+                    <li class="list__infor">
+                      <i class="fa-solid fa-globe"></i>
+                      www.buitaanhuy.netlify.app
+                    </li>
+                    <li class="list__infor">
+                      <i class="fa-regular fa-envelope"></i>
+                      buitaanhuy@gmail.com
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/slider2.png" alt="" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/slider3.png" alt="" class="d-block w-100">
+                <div class="slider3__text">
+                  <p class="">NOTHING</p>
+                  <p>IS</p>
+                  <P>POSSIBLE</P>
+                </div>
+                <img src="./assets/img/logo.png" alt="logo" class="img__logo1">
+              </div>
+            </div>
+          
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        <!-- slide end -->
+        <div class="about__section container" id="about" >
+          <!-- introdution start -->
+          <div class="container__head">
+              <h1  class="text__heading" id="about">
+                  ABOUT ME
+              </h1>
+              <span class="text__descr">My Introduction</span>
+          </div>
+          <div class="card  card__border">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img src="./assets/img/aboutme.jpg" class="img-fluid card__img" alt="...">
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body">
+                    <div class="intro__head me-3">
+                      <i class="fa-regular fa-id-card intro__icon"></i>
+                      <h4 class="intro__heading">Experience</h4>
+                      <span class="intro__time">0 year</span>
+                    </div>
+                    <div class="intro__head me-3">
+                      <i class="fa-regular fa-calendar-check intro__icon"></i>
+                      <h4 class="intro__heading">Completed</h4>
+                      <span class="intro__time">10+ projects</span>
+                    </div>
+                    <div class="intro__head">
+                      <i class="fa-solid fa-language intro__icon"></i>
+                      <h4 class="intro__heading">Language</h4>
+                      <span class="intro__time">Toeic 430+</span>
+                    </div>
+                    <p class="card-text mt-3">Hi, I'm Huy, I study management information systems at Ho Chi Minh City University of Banking. I am a student passionate about my learning and personal development journey. Currently, I am pursuing a major in e-commerce management at university. I have always had a passion for technology and e-commerce and I see this sector becoming an important part of the global economy.</p>
+                    <p class="card-text intro__author"><small class="text-body-secondary">By Bui Tan Huy 10/2023.</small></p>
+                    <div class="d-grid gap-2 d-md-block download">
+                      <button class="btn btn-secondary" type="button">
+                        <a href="./assets/media/E-commerce_Chapter 01_PPT.pdf" target="_blank" class="download__link">
+                          Download CV
+                        </a>
+                        <i class="fa-solid fa-file-arrow-down icon__down"></i>
+                      </button>
+                      <button class="btn btn-secondary" type="button">
+                        Xem thêm
+                        <i class="fa-solid fa-circle-arrow-right icon__next"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        <!-- introdution end -->
+
+        <!-- qualification start -->
+          <div class="qualification__section content text-center" id="qualification">
+            <div class="container__head">
+              <h1 class="text__heading" >
+                  QUALIFICATION
+              </h1>
+              <span class="text__descr">My Personal Journey</span>
+            </div>
+            <div class="btn-group header__nav" role="group" aria-label="Basic radio toggle button group">
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+              <label class="btn btn-outline-secondary header__text" for="btnradio1"><i class="fa-solid fa-graduation-cap me-2"></i>EDUCATION</label>
+            
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+              <label class="btn btn-outline-secondary header__text" for="btnradio2"> <i class="fa-regular fa-id-card me-2"></i>EXPERIENCE</label>
+
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+              <label class="btn btn-outline-secondary header__text" for="btnradio3"><i class="fa-solid fa-award me-2"></i>CERTIFICATE</label>
+            </div>
+            <div class="tab__content">
+              <div class="row tabs active">
+
+                <div class="col-xl-6 qualification__content text-start">
+                  <h3 class="qualification__title">Pho Van Primary School</h3>
+                  <span class="qualification__subtitle">Pho Van, Duc Pho, Quang Ngai</span>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2009-2014
+                  </div>
+                </div>
+                <div class="col-xl-6 text-end qualification__blank">
+                </div>
+
+                <div class="col-xl-6 text-end qualification__blank">
+                </div>
+                <div class="col-xl-6 qualification__content text-end">
+                  <h3 class="qualification__title">Pho Van Junior High School.</h3>
+                  <span class="qualification__subtitle">Pho Van, Duc Pho, Quang Ngai</span>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2014-2018
+                  </div>
+                </div>
+
+                <div class="col-xl-6 qualification__content text-start">
+                  <h3 class="qualification__title">Duc Pho No. 1 High School</h3>
+                  <span class="qualification__subtitle">Duc Pho, Quang Ngai</span>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2018-2021
+                  </div>
+                </div>
+                <div class="col-xl-6 text-end qualification__blank">
+                </div>
+
+                <div class="col-xl-6 text-end qualification__blank">
+                </div>
+                <div class="col-xl-6 qualification__content text-end">
+                  <h3 class="qualification__title">Ho Chi Minh City University of Banking</h3>
+                  <span class="qualification__subtitle">Ho Chi Minh, Viet Nam</span>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2021-2025
+                  </div>
+                </div>
+              </div>
+
+              <div class="row tabs text-center col-xl-9">
+                  <h3 class="qualification__title ">No experience yet</h3>
+                <!-- <div class="col-xl-6 qualification__content text-start">
+                  <h3 class="qualification__title">No experience yet</h3>
+                  <a class="qualification__subtitle" href="https://fullstack.edu.vn/cert/enoe5" target="_blank" style="cursor: pointer;">fullstack.edu.vn/</a>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2022-2023
+                  </div>
+                </div>
+                <div class="col-xl-6 text-end qualification__blank">
+                </div>
+
+                <div class="col-xl-6 text-end qualification__blank">
+                </div>
+                <div class="col-xl-6 qualification__content text-end">
+                  <h3 class="qualification__title">Create a Website Using Wordpress: Free Hosting & Sub-domain</h3>
+                  <a class="qualification__subtitle" href="https://coursera.org/verify/DF8RCP9NUVC8" target="_blank" style="cursor: pointer;">coursera.org/</a>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    01/2023-09/2023
+                  </div>
+                </div>
+
+                <div class="col-xl-6 qualification__content text-start">
+                  <h3 class="qualification__title">No experience yet</h3>
+                  <span class="qualification__subtitle">IIG Vietnam Education Organization</span>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    10/2022-04/2023
+                  </div>
+                </div>
+                <div class="col-xl-6 text-end qualification__blank">
+                </div> -->
+              </div>
+              
+              <div class="row tabs">
+                <div class="col-xl-6 qualification__content text-start">
+                  <h3 class="qualification__title">HTML, CSS, JavaScript</h3>
+                  <a class="qualification__subtitle" href="https://fullstack.edu.vn/cert/enoe5" target="_blank" style="cursor: pointer;">fullstack.edu.vn/</a>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2022-2023
+                  </div>
+                </div>
+                <div class="col-xl-6 text-end qualification__blank">
+                </div>
+
+                <div class="col-xl-6 text-end qualification__blank">
+                </div>
+                <div class="col-xl-6 qualification__content text-end">
+                  <h3 class="qualification__title">Create a Website Using Wordpress: Free Hosting & Sub-domain</h3>
+                  <a class="qualification__subtitle" href="https://coursera.org/verify/DF8RCP9NUVC8" target="_blank" style="cursor: pointer;">coursera.org/</a>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    01/2023-09/2023
+                  </div>
+                </div>
+
+                <div class="col-xl-6 qualification__content text-start">
+                  <h3 class="qualification__title">English Toeic 430</h3>
+                  <span class="qualification__subtitle">IIG Vietnam Education Organization</span>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    10/2022-04/2023
+                  </div>
+                </div>
+                <div class="col-xl-6 text-end qualification__blank">
+                </div>
+
+                <!-- <div class="col-xl-6 text-end qualification__blank">
+                </div>
+                <div class="col-xl-6 qualification__content text-end">
+                  <h3 class="qualification__title">Ho Chi Minh City University of Banking</h3>
+                  <span class="qualification__subtitle">Ho Chi Minh, Viet Nam</span>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2021-2025
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>  
+        </div>
+        <!-- qualification end -->
+
+        <!-- Skills start -->
+        <div class="skills__section container" id="skill">
+          <div class="container__head">
+              <h1 class="text__heading" >
+                  SKILLS
+              </h1>
+              <span class="text__descr">My skills</span>
+          </div>
+
+          <div class="skills__container row">
+            <div class="skills__content col-xl-5">
+              <h3 class="skill__title">Professional Skills</h3>
+
+              <div class="skills__box__first row">
+                <div class="skill__group col-xl-6">
+                  <div class="skill__data ">
+                    <div class="skill__icon">
+                      <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div>
+                      <div class="skill__name">C/C++</div>
+                      <div class="skill__level">Primary</div>
+                    </div>
+                  </div>
+                  <div class="skill__data ">
+                    <div class="skill__icon">
+                      <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div>
+                      <div class="skill__name">HTML/CSS</div>
+                      <div class="skill__level">Intermediate</div>
+                    </div>
+                  </div>
+                  <div class="skill__data ">
+                    <div class="skill__icon">
+                      <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div>
+                      <div class="skill__name">Javascript</div>
+                      <div class="skill__level">Primary</div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="skill__group col-xl-6">
+                  <div class="skill__data ">
+                    <div class="skill__icon">
+                      <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div>
+                      <div class="skill__name">PHP</div>
+                      <div class="skill__level">Intermediate</div>
+                    </div>
+                  </div>
+                  <div class="skill__data ">
+                    <div class="skill__icon">
+                      <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div>
+                      <div class="skill__name">C#</div>
+                      <div class="skill__level">Primary</div>
+                    </div>
+                  </div>
+                  <div class="skill__data ">
+                    <div class="skill__icon">
+                      <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div>
+                      <div class="skill__name">Canva</div>
+                      <div class="skill__level">Primary</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="skills__content col-xl-5">
+            <h3 class="skill__title">Professional Skills</h3>
+
+            <div class="skills__box__second row ms-1">
+              <div class="skill__group col-xl-6">
+                <div class="skill__data ">
+                  <div class="skill__icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                  </div>
+                  <div>
+                    <div class="skill__name">Communication</div>
+                    <div class="skill__level">Intermediate</div>
+                  </div>
+                </div>
+                <div class="skill__data ">
+                  <div class="skill__icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                  </div>
+                  <div>
+                    <div class="skill__name">Creative Thinking</div>
+                    <div class="skill__level">Intermediate</div>
+                  </div>
+                </div>
+                <div class="skill__data ">
+                  <div class="skill__icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                  </div>
+                  <div>
+                    <div class="skill__name">Positivity</div>
+                    <div class="skill__level">Intermediate</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="skill__group col-xl-6">
+                <div class="skill__data ">
+                  <div class="skill__icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                  </div>
+                  <div>
+                    <div class="skill__name">Problem-solving</div>
+                    <div class="skill__level">Intermediate</div>
+                  </div>
+                </div>
+                <div class="skill__data ">
+                  <div class="skill__icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                  </div>
+                  <div>
+                    <div class="skill__name">Teamwork</div>
+                    <div class="skill__level">High-class</div>
+                  </div>
+                </div>
+                <div class="skill__data ">
+                  <div class="skill__icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                  </div>
+                  <div>
+                    <div class="skill__name">Time Management</div>
+                    <div class="skill__level">High-class</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- Skills end -->
+        
+        <!-- Project start -->
+        <div class="project__section container" id="project">
+          <div class="project__head">
+              <h1 class="text__heading" >
+                  PROJECT
+              </h1>
+              <span class="text__descr">Most Recent Works</span>
+          </div>
+          <!-- <div class="btn-group header__nav" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-secondary header__text" for="btnradio1"><i class="fa-solid fa-graduation-cap me-2"></i>ALL</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-secondary header__text" for="btnradio2"> <i class="fa-regular fa-id-card me-2"></i>WEB</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-secondary header__text" for="btnradio3"><i class="fa-solid fa-award me-2"></i>CERTIFICATE</label>
+          </div> -->
+          <!-- <div class="tab__content">
+            <div class="row tabs active">
+
+            </div>
+
+            <div class="row tabs">
+              
+            </div>
+          </div> -->
+          <div class="row">
+            <div class="col-xl-4" style="padding: 0 12px 0 0;">
+              <div class="card" style="padding: 0 12px;">
+                <img src="https://placehold.co/400x300" class="card-img-top" alt="...">
+                <div class="card-body padding__disable">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4" style="padding: 0 12px 0 0;">
+              <div class="card" style="padding: 0 12px;">
+                <img src="https://placehold.co/400x300" class="card-img-top" alt="...">
+                <div class="card-body padding__disable">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4" style="padding: 0 12px 0 0;">
+              <div class="card" style="padding: 0 12px;">
+                <img src="https://placehold.co/400x300" class="card-img-top" alt="...">
+                <div class="card-body padding__disable">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project end -->
+
+        <!-- contact start -->
+        <div class="contact__section container" id="contact">
+          <div class="container__head">
+              <h1 class="text__heading" >
+                  CONTACT ME
+              </h1>
+              <span class="text__descr">Get in touch</span>
+          </div>
+          <div class="contact row">
+            <div class="contact__content col-xl-6">
+              <h3 class="contact__title">
+                Talk to me
+              </h3>
+              <div class="contact__mail">
+                <i class="fa-solid fa-paper-plane"></i>
+                <a href="mailto:buitaanhuy@gmail.com" class="mail__link">buitaanhuy@gmail.com</a>
+              </div>
+              <div class="contact__phone">
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:0373117364" class="phone__link">0373117364</a>
+              </div>
+              <div class="contact__icon">
+                <a href="https://www.facebook.com/bui.tanhuy.39" target="_blank">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/buitaanhuy" target="_blank">
+                  <i class="fa-brands fa-square-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="contact__content col-xl-6">
+              <div class="form-floating mb-2">
+                <input type="name" class="form-control" id="floatingInput" placeholder="name">
+                <label for="floatingInput">Your Name</label>
+              </div>
+              <div class="form-floating mb-2">
+                <input type="email" class="form-control" id="floatingPassword" placeholder="name@example.com">
+                <label for="floatingPassword">Your Email</label>
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Your Message</label>
+              </div>
+              <button class="btn btn-secondary send__mess mt-2" type="button">
+                Send Message
+              </button>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+        <!-- contact end -->
+    <!-- container end -->
+
+    <!-- footer start -->
+    <div class="footer">
+      <div class="footer__content">
+        <a href="#" class="content__head">© Copyright 2023| Bui Tan Huy</a>
+        <p class="content__text">All rights reserved</p>
+      </div>
+    </div>
+    <!-- footer end -->
+    <script src="./assets/javascript/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
